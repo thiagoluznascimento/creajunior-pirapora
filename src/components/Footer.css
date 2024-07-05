@@ -1,0 +1,12 @@
+footer {
+    padding: 15px;
+    text-align: center;
+    /* font-weight: 500; */
+    background-color: #1c5393;
+    color: white;
+    height: 55px;
+    /* position: sticky; */
+    /* bottom: 0; */
+    width: 100%;
+}
+

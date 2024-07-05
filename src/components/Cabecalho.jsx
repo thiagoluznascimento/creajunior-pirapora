@@ -1,17 +1,23 @@
+import "./Cabecalho.css"
+import imagem from "../assets/logo-branca.png"
+
 function Cabecalho() {
     return(
-        <header>
-            <h2>Bem Vindo!</h2>
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SOBRE NÓS</a></li>
-                    <li><a href="#">PROCESSO SELETIVO</a></li>
-                    <li><a href="#">EVENTOS</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                </ul>
-            </nav>
-        </header>
+        <>
+        <div className="fundo-header">
+            <header className="cabecalho">
+                <img src={imagem} alt="imagem logo crea-jr" />
+                {/* <h2 className="titulo">Crea-Jr Pirapora</h2> */}
+                <nav className="nav-bar">
+                        <a href="#">HOME</a>
+                        <a href="#">SOBRE NÓS</a>
+                        <a href="#">PROCESSO SELETIVO</a>
+                        <a href="#">EVENTOS</a>
+                        <a href="#">CONTATO</a>
+                </nav>
+            </header>
+        </div>
+        </>
     );
 }
 

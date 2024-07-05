@@ -1,0 +1,45 @@
+
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    align-items: center;
+    background-position: center;
+    padding: 15px;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.texto {
+    width: 50%;
+    padding: 70px;
+    background: white;
+    align-items: center;
+}
+.texto h2{
+    padding: 14px;
+   
+}
+
+.moldura {
+    position: absolute;
+    right: -5px;
+    width: 80px;
+    height: 100%;
+    background: white;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 0 50%);
+}

@@ -3,10 +3,10 @@
 
 .container {
     display: flex;
-    max-width: 1200px;
+    max-width: 100% ;
     background: white;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #1c5393;
     overflow: hidden;
     align-items: center;
     background-position: center;

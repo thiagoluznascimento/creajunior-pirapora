@@ -1,5 +1,5 @@
-import "./Cabecalho.css"
-import imagem from "../assets/logo-branca.png"
+import "./Cabecalho.css";
+import imagem from "../assets/logo-branca.png";
 
 function Cabecalho() {
     return(

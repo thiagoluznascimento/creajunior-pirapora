@@ -1,5 +1,6 @@
-import Banner from "./components/Banner";
 import Cabecalho from "./components/Cabecalho";
+import Banner from "./components/Banner";
+import Galeria from "./components/Galeria";
 import Footer from "./components/Footer";
 
 
@@ -9,6 +10,7 @@ function App() {
       <Cabecalho />
       <main>
         <Banner />
+        <Galeria />
       </main>
       <Footer nomeAutor = "Thiago Luz" />
     </>

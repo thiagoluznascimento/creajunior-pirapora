@@ -1,0 +1,16 @@
+.box-galeria {
+    display: flex;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    flex-direction: row;
+    box-shadow: 0 0 10px #1c5393;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.galeria {
+    /* margin-bottom: 10px; */
+    text-align: center;
+    padding: 40px;
+    /* background-color: antiquewhite; */
+}

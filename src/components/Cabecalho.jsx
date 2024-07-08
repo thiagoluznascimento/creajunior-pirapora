@@ -1,4 +1,7 @@
 import "./Cabecalho.css";
+
+import Botoes from "./Botoes"
+
 import imagem from "../assets/logo-branca.png";
 
 function Cabecalho() {
@@ -15,6 +18,7 @@ function Cabecalho() {
                         <a href="#">EVENTOS</a>
                         <a href="#">CONTATO</a>
                 </nav>
+                <Botoes />
             </header>
         </div>
         </>

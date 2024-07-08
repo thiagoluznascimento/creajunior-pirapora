@@ -1,0 +1,11 @@
+.button {
+    background-color: #1c5393;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0 2px 1px rgba(156, 250, 234, 0.174);
+}

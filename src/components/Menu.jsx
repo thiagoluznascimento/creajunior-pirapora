@@ -16,6 +16,8 @@ function Menu() {
                             <Link className="nav-link" to="/sobrenos">SOBRE-NÓS</Link>
                             <Link className="nav-link" to="processoseletivo">PROCESSO SELETIVO</Link>
                             <Link className="nav-link" to="/eventos">EVENTOS</Link>
+                            <Link className="nav-link" to="/login">LOGIN</Link>
+                            <Link className="nav-link" to="/cadastro">CADASTRO</Link>
                             <Link className="nav-link" to="/contato">CONTATO</Link>
                         </Nav>
                     </Navbar.Collapse>

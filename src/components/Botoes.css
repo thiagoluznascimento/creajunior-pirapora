@@ -9,3 +9,8 @@
 .button:hover {
     box-shadow: 0 0 2px 1px rgba(156, 250, 234, 0.174);
 }
+
+.btn {
+    
+    mt-1 w-100
+}

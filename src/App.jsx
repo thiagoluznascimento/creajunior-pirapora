@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Menu from "./components/Menu";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-
+import SobreNos from "./pages/SobreNos";
 
 
 
@@ -19,7 +19,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="sobrenos" element={<SobreNos />} /> */}
+          <Route path="sobrenos" element={<SobreNos />} />
           {/* <Route path="processoseletivo" element={<ProcessoSeletivo />} /> */}
           {/* <Route path="eventos" element={<Eventos />} /> */}
           {/* <Route path="contato" element={<Contato />} /> */}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.cd-sobre-nos {
+    background-color: rgba(38, 38, 229, 0.401) !important;
+    color: white !important;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.cd-header{
+    text-align: center;
+}
+.cd-title {
+    text-align: center;
+}
+.cd-text {
+    text-align: justify;
+    margin: 0 15px;
+}

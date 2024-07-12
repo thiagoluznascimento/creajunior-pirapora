@@ -3,24 +3,28 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .cd-sobre-nos {
-    background-color: rgba(38, 38, 229, 0.401) !important;
-    color: white !important;
     gap: 20px;
     width: 100%;
     margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* para adiciona sombra */
+    border: none;
+    padding: 20px;
+    border-radius: 20px !important;
 }
 
 .cd-header{
     text-align: center;
+    color: #1c5393 !important;
 }
 .cd-title {
     text-align: center;
+    color: #1c5393 !important;
 }
 .cd-text {
     text-align: justify;
     margin: 0 15px;
+    color: #1112136d !important;
 }

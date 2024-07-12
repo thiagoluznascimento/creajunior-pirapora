@@ -1,5 +1,9 @@
 import { Carousel } from "react-bootstrap";
+
 import CarouselImagem from "../components/CarouselImagem";
+
+import Galeria from "../components/Galeria";
+
 
 import imagem from "../assets/banner01.jpg";
 import imagem1 from "../assets/palestra.jpg";
@@ -11,17 +15,20 @@ const imagens = [
 
 function Home() {
     return (
-        <Carousel>
-            {imagens.map((img, index) => (
-                <Carousel.Item key={index}>
-                    <CarouselImagem linkImagem={img.caminhoImagem} />
-                    <Carousel.Caption>
-                        <h3>{img.texto}</h3>
-                        <p>{img.legenda}</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            ))}
-        </Carousel>
+        <>
+            <Carousel>
+                {imagens.map((img, index) => (
+                    <Carousel.Item key={index}>
+                        <CarouselImagem linkImagem={img.caminhoImagem} />
+                        <Carousel.Caption>
+                            <h3>{img.texto}</h3>
+                            <p>{img.legenda}</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+            <Galeria />
+        </>
     );
 }
 

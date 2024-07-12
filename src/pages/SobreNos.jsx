@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "../components/Cards.css";
 
 
@@ -6,7 +6,7 @@ function SobreNos() {
     return(
         <div className="container">
             <Card className="cd-sobre-nos">
-                <Card.Header as = "h5" className="cd-header"> Sobre Nós </Card.Header>
+                <Card.Header as = "h3" className="cd-header"> SOBRE NÓS </Card.Header>
                 <Card.Body>
                     <Card.Title className="cd-title">Tratamento especial Sobre nós</Card.Title>
                     <Card.Text className="cd-text">

@@ -12,6 +12,8 @@ import PoliticasPrivacidade from "./pages/PoliticasPrivaciade";
 import ProcessoSeletivo from "./pages/ProcessoSeletivo";
 import Cadastro from "./pages/cadastro";
 import Login from "./pages/Login";
+import Contato from "./pages/Contato";
+
 
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
           {/* <Route path="eventos" element={<Eventos />} /> */}
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path="contato" element={<Contato />} /> */}
+          <Route path="contato" element={<Contato />} />
           <Route path="/politicasprivacidade" element={<PoliticasPrivacidade />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
